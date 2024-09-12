@@ -1,3 +1,5 @@
+/* style.css */
+
 /* Estilo base permanece o mesmo */
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -84,4 +86,27 @@ footer {
 
 footer p {
     margin: 5px;
+}
+
+/* Estilo para a lista de pessoas com seguro */
+#seguroList .segurado {
+    border: 2px solid #006600; /* Contorno verde */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#seguroList .segurado:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#seguroList h2 {
+    color: #006600;
+}
+
+#seguroList p {
+    color: #333;
 }
